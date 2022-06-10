@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Container Untuk Navbar*/
+nav{
+    height: 100px;
+    align-items: center;
+    background-color: #ff3232;
+    display: flex;
+    justify-content: space-between;
+}
+/*Isi Navbar*/
+    /*Isi Logo*/
+nav .logo {
+    color: white;
+    font-size: 32px;
+    padding: 0 80px;
+}
+    /*Isi menu navbar*/
+div.menu{
+    padding: 0 500px 0 0;
+}
+div.menu a:link{
+    color: white;
+}
+div.menu a:visited{
+    color: white;
+}
+div.menu a:hover{
+    color: white;
+}
+div.menu a:active{
+    color: #f80000;
+}
+div.menu a{
+    text-decoration: none;
+}
+div.menu ul{
+    display: flex;
+    gap: 32px;
+}
+/*Isi menu burger*/
+nav .contact{
+    padding: 0 85px 0 0;
+    display: flex;
+    gap: 20px;
+}
+/*END NAVBAR*/
+/*kontainer konten*/
+.container{
+    object-fit: fill;
+    background-position: center;
+    background-image: url(2001020023.png);
+    background-repeat: no-repeat;
+    height: 900px;
+    background-color: #ff3232;
+    display: flex;
+    flex-direction: column;
+}
+
+/*container konten kaption & konten gambar*/
+main .mini-cont{
+    justify-content: space-between;
+    display: flex;
+}
+/*konten kaption*/
+main .content1 h1{
+    font-size: 2em;
+    color: #ca0000;
+}
+main .content1 h2{
+    font-size: 4em;
+    color: white;
+}
+main .content1{
+    padding: 100px 0 0 80px;
+}
+main .content1 .garisbawah{
+    height: 2px;
+    width: 400px;
+    background-color: #fac943;
+    border-radius: 50%;
+}
+main .content1 p{
+    inline-size: 20px;
+    color: white;
+    margin-top: 20px;
+    inline-size: 500px;
+    word-break: break-all;
+}
+
+/*konten services*/
+main .content2{
+    padding: 100px 80px 0 0;
+}
+main .content2 h2{
+    color:#ca0000;
+}
+main .content2 p{
+    inline-size: 300px;
+    word-break: break-all;
+    color: white;
+}
+main .content2 .showmore{
+    margin-top: 10px;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    color: #fac943;
+}
+main .content2 .icon{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+/*container sponsor*/
+main .mini-cont2{
+    display: flex;
+    justify-content: center;
+}
+/*sponsor*/
+main .mini-cont2{
+    margin-top: 300px;
+}
+main .sponsor{
+    border-radius: 24px;
+    align-items: center;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff3232;
+    height: 100px;
+    width: 75%;
+    box-shadow: 10px 5px 5px 10px rgba(0, 0, 0, 0.692);
+}
+main .mini-cont2 .shope{
+    background-color: white;
+    box-sizing: border-box;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+main .mini-cont2 .google{
+    background-color: white;
+    box-sizing: border-box;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+main .mini-cont2 .meta{
+    background-color: white;
+    box-sizing: border-box;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+/*END sponsor*/
+
+/*Start Keahlian*/
+/*Kontener keahlian*/
+
+main .mini-cont3{
+    display: flex;
+    justify-content: center;
+    margin-top:100px ;
+    gap: 20px;
+}
+/*Isi kontener*/
+/*Isi keahlian1*/
+.keahlian1 h2{
+    margin-top: 10px;
+    color: white;
+}
+.keahlian1 p{
+    margin-top: 10px;
+    color: white;
+}
+.keahlian1 img{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ff3232;
+}
+main .keahlian1{
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.548);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: #f80000;
+    border-radius: 20px;
+}
+/*END Isi keahlian1*/
+/*Isi keahlian2*/
+.keahlian2 h2{
+    margin-top: 10px;
+    color: white;
+}
+.keahlian2 p{
+    margin-top: 10px;
+    color: white;
+}
+.keahlian2 img{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ff3232;
+}
+main .keahlian2{
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.548);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: #f80000;
+    border-radius: 20px;
+}
+/*END Isi keahlian2*/
+/*Isi keahlian3*/
+.keahlian3 h2{
+    margin-top: 10px;
+    color: white;
+}
+.keahlian3 p{
+    margin-top: 10px;
+    color: white;
+}
+.keahlian3 img{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ff3232;
+}
+main .keahlian3{
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.548);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: #f80000;
+    border-radius: 20px;
+}
+
+/*end keahlian3*/
+/*end container*/
+/*start container2*/
+.container2{
+    display: flex;
+    height: 1000px;
+    background-color: #f80000;
+    justify-content: space-between;
+}
+/*start konten kiri*/
+main.container2 .kontenacom{
+    padding: 0 85px;
+    margin-top: 600px;
+    height: 300px;
+    width: 400px;
+}
+main.container2 .kontenacom h1{
+    font-size: 3em;
+    color: white;
+}
+main.container2 .kontenacom p{
+    color: rgb(192, 189, 189);
+}
+main.container2 .minicon{
+    justify-content: space-between;
+    display: flex;
+    height: 300px;
+    width: 400px;
+
+}
+main.container2 .minicon .minicon-kiri{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100px;
+    width: 100px;
+}
+main.container2 .minicon .minicon-kiri h1{
+    color: #fac943;
+    font-size: 25px;
+}
+main.container2 .minicon .minicon-kiri h2{
+    font-size: 10px;
+    color: rgb(192, 189, 189);
+}
+main.container2 .minicon .minicon-kanan{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100px;
+    width: 100px;
+}
+main.container2 .minicon .minicon-kanan h1{
+    color: #fac943;
+    font-size: 25px;
+}
+main.container2 .minicon .minicon-kanan h2{
+    font-size: 10px;
+    color: rgb(192, 189, 189);
+}
+
+/*start konten kanan*/
+main.container2 .kontenprojek{
+    padding: 0 85px;
+    display: flex;
+    margin-top: 500px;
+    height: 300px;
+    width: 500px;
+    flex-direction: column;
+}
+main.container2 .kontenprojek .katas{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 100px;
+    gap: 10px;
+}
+main.container2 .kontenprojek .katas h2{
+    font-size: 24px;
+    color: white;
+}
+main.container2 .kontenprojek .katas .logo-kiri img{
+    padding: 10px;
+    width: 64px;
+    height: 64px;
+    background-color: #ff3232;
+    border-radius: 50%;
+}
+/* Anak Panah*/
+main.container2 .kontenprojek .katas .anak-panah img{
+    padding: 0 0 0 130px;
+}
+main.container2 .kontenprojek .katas .anak-panah2 img{
+    padding: 0 0 0 102px;
+}
+main.container2 .kontenprojek .katas .anak-panah3 img{
+    padding: 0 0 0 60px;
+}
+main.container2 .kontenprojek .katas .font-cont h5{
+    color: rgb(192, 189, 189);
+}
+/*garis bawah*/
+main.container2 .kontenprojek .garis-bawah1{
+    height: 5px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+}
+main.container2 .kontenprojek .garis-bawah2{
+    height: 5px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+}
+main.container2 .kontenprojek .garis-bawah3{
+    height: 5px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+}
+/*start container3*/
+main.container3{
+    background-color: #ff3232;
+    height: 900px;
+}
+main.container3 .footer{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+main.container3 .services{
+    color: white;
+}
+main.container3 .about{
+    color: white;
+}
+main.container3 .information{
+    color: white;
+}
+main.container3 .stay-in-touch{
+    color: white;
+}
+main.container3 .footer h1{
+    font-size: 24px;
+}
+main.container3 .footer h2{
+    padding-top: 10px;
+    font-size: 12px;
+    color: rgb(192, 189, 189);
+}
